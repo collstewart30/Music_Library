@@ -5,8 +5,6 @@ from .models import Song
 from .serializers import SongSerializer
 from rest_framework import status
 
-from songs import serializers
-
 
 @api_view(['GET', 'POST'])
 def song_list(request):
